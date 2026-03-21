@@ -95,7 +95,7 @@ export default function Home() {
       <h1 style={{ fontSize: 52, fontWeight: 900, lineHeight: 1.1, maxWidth: 740, margin: "24px auto", letterSpacing: "-0.03em" }}>Know Where Gold Is Headed<br /><span style={{ color: G }}>Before the Week Starts.</span></h1>
       <p style={{ fontSize: 17, color: T2, maxWidth: 560, margin: "0 auto 36px", lineHeight: 1.7 }}>Every Sunday evening, get a data-driven weekly gold bias score, expected move, confidence level, and the exact macro drivers — all for less than a coffee.</p>
       <div style={{ display: "flex", gap: 14, justifyContent: "center", marginBottom: 56 }}>
-        <button style={{ padding: "14px 36px", borderRadius: 10, border: "none", background: `linear-gradient(90deg,${GD},${G})`, color: BG, fontSize: 15, fontWeight: 700, cursor: "pointer" }}>Start Free — $0 for 14 Days →</button>
+        <button style={{ padding: "14px 36px", borderRadius: 10, border: "none", background: `linear-gradient(90deg,${GD},${G})`, color: BG, fontSize: 15, fontWeight: 700, cursor: "pointer" }} onClick={() => window.open("https://buy.stripe.com/3cI00kdrX7l6cKD6gb5Vu00")}>Start Free — $0 for 14 Days →</button>
         <a href="#results" style={{ padding: "14px 36px", borderRadius: 10, border: `1px solid ${BD}`, color: T2, fontSize: 15, fontWeight: 600, textDecoration: "none", display: "inline-block" }}>See Past Results ↓</a>
       </div>
       <div style={{ display: "flex", justifyContent: "center", gap: 48 }}>
@@ -170,7 +170,7 @@ export default function Home() {
             <div style={{ display: "flex", alignItems: "baseline", gap: 4, marginBottom: 4 }}><span style={{ fontSize: 40, fontWeight: 800, color: T1, fontFamily: "'DM Mono',monospace" }}>$5</span><span style={{ fontSize: 14, color: T3 }}>/month</span></div>
             <div style={{ fontSize: 12, color: GR, marginBottom: 24 }}>14-day free trial · Cancel anytime</div>
             {["Live weekly bias + expected move", "Full ranked driver breakdown", "Regime detection", "Day-by-day outlook", "Event risk calendar", "Daily supporting signal", "Full signal archive"].map((t, i) => <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}><span style={{ color: GR, fontSize: 12 }}>✓</span><span style={{ fontSize: 13, color: T2 }}>{t}</span></div>)}
-            <button style={{ width: "100%", marginTop: 20, padding: "14px 0", borderRadius: 10, border: "none", background: `linear-gradient(90deg,${GD},${G})`, color: BG, fontSize: 14, fontWeight: 700, cursor: "pointer" }}>Start 14-Day Free Trial →</button>
+            <button style={{ width: "100%", marginTop: 20, padding: "14px 0", borderRadius: 10, border: "none", background: `linear-gradient(90deg,${GD},${G})`, color: BG, fontSize: 14, fontWeight: 700, cursor: "pointer" }} onClick={() => window.open("https://buy.stripe.com/3cI00kdrX7l6cKD6gb5Vu00")}>Start 14-Day Free Trial →</button>
           </div>
         </div>
         <div style={{ textAlign: "center", marginTop: 28, fontSize: 13, color: T3 }}>That is less than <span style={{ color: G, fontWeight: 600 }}>$0.17 per day</span> for institutional-grade gold intelligence.</div>
@@ -193,7 +193,7 @@ export default function Home() {
     <section style={{ padding: "80px 40px", background: BG2, textAlign: "center" }}>
       <h2 style={{ fontSize: 38, fontWeight: 900, marginBottom: 16 }}>Stop Trading Gold Blind.<br /><span style={{ color: G }}>Start at $5/month.</span></h2>
       <p style={{ fontSize: 15, color: T2, maxWidth: 480, margin: "0 auto 32px", lineHeight: 1.7 }}>14-day free trial. Cancel anytime. Get your first weekly outlook this Sunday.</p>
-      <button style={{ padding: "16px 44px", borderRadius: 12, border: "none", background: `linear-gradient(90deg,${GD},${G})`, color: BG, fontSize: 16, fontWeight: 700, cursor: "pointer" }}>Start Your Free Trial →</button>
+      <button style={{ padding: "16px 44px", borderRadius: 12, border: "none", background: `linear-gradient(90deg,${GD},${G})`, color: BG, fontSize: 16, fontWeight: 700, cursor: "pointer" }} onClick={() => window.open("https://buy.stripe.com/3cI00kdrX7l6cKD6gb5Vu00")}>Start Your Free Trial →</button>
     </section>
 
     <footer style={{ padding: "32px 40px", borderTop: `1px solid ${BD}`, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
